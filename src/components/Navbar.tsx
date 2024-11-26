@@ -37,6 +37,7 @@ const Navbar = () => {
 
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">
+          <div className="flex items-center gap-2">
           <ModeToggle/>
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             <svg
@@ -54,22 +55,23 @@ const Navbar = () => {
               ></path>
             </svg>
           </button>
+          </div>
         </div>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-2">
-          <a href="#home" className="block py-2 px-4 text-white hover:bg-gray-700">
+          <a href="#home" className="block py-2 px-4 text-white hover:bg-gray-700/20">
             Home
           </a>
-          <a href="#about" className="block py-2 px-4 text-white hover:bg-gray-700">
+          <a href="#about" className="block py-2 px-4 text-white hover:bg-gray-700/20">
             About
           </a>
-          <a href="#services" className="block py-2 px-4 text-white hover:bg-gray-700">
+          <a href="#services" className="block py-2 px-4 text-white hover:bg-gray-700/20">
             Services
           </a>
-          <a href="#contact" className="block py-2 px-4 text-white hover:bg-gray-700">
+          <a href="#contact" className="block py-2 px-4 text-white hover:bg-gray-700/20">
             Contact
           </a>
         </div>
