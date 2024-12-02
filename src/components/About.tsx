@@ -7,8 +7,8 @@ import {
 
 const About = () => {
   return (
-    <section>
-      <div className="mx-auto max-w-4xl">
+    <section className="max-w-6xl mx-auto p-4 md:p-2 min-h-screen">
+      <div className="mt-[5rem]">
         <Card className="">
           <CardHeader>
             <CardTitle>
@@ -33,9 +33,9 @@ const About = () => {
           
         </Card>
       </div>
-      <div>
-        <h2>Our Mission</h2>
-        <h2>Better adverising for all.</h2>
+      <div className="text-center">
+        <h1 className="font-bold text-3xl mb-4 leading-snug">Our Mission</h1>
+        <p className="text-xl text-">Better adverising for all.</p>
       </div>
     </section>
   );

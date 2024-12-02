@@ -5,7 +5,7 @@ const Car = new URL("../images/stock.jpg", import.meta.url);
 
 const Services = () => {
   return (
-    <section>
+    <section className="max-w-6xl mx-auto p-4 md:p-2 min-h-screen">
       <div>
         <h2 className=" text-3xl md:text-5xl font-bold">Services</h2>
         <div></div>

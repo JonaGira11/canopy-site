@@ -24,7 +24,7 @@ const Home = () => {
       </div>
 
       <div className="max-w-6xl mx-auto p-4 md:p-2 min-h-screen">
-        <div className="p-2 grid grid-cols-1 md:grid-cols-2 gap-4 mt-[5rem]">
+        <div className="p-2 grid grid-cols-1 md:grid-cols-2 gap-4 md:mt-[5rem]">
 
           <div className="">
             <h3 className="font-bold text-4xl">
